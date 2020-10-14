@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'first-slave' }
+    agent { label 'ecs-slave' }
     stages {
         stage('Build') { 
             steps {
